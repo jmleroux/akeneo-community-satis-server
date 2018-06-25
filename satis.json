@@ -1,0 +1,10 @@
+{
+    "name": "Akeneo PIM community edition Satis server",
+    "homepage": "https://akeneo.com",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/akeneo/pim-community-dev.git" }
+    ],
+    "require": {
+        "akeneo/pim-community-dev": "1.*|2.*"
+      }
+}

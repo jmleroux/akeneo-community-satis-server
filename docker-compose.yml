@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  satis:
+    image: composer/satis
+    volumes:
+      - ./:/build
+      - ~/.composer:/composer
+    working_dir: /build
+    ports:
+      - '8091:80'
+
+
